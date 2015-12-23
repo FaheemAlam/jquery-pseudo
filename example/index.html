@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jquery Pseudo</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/pseudo.js"></script>
+
+    <script>
+        $( document ).ready(function() {
+            $('button.red').click(function() {
+                $('#heading:before').css('color','red');
+                $('#heading:after').css('color','red')
+            });
+            $('button.green').click(function() {
+                $('#heading:before').css('color','green');
+                $('#heading:after').css('color','green')
+            })
+        });
+    </script>
+
+</head>
+<body>
+    <h1 id="heading">Hello world</h1>
+    <button class="green">apply color </button>
+    <button class="red">apply color </button>
+
+</body>
+</html>
