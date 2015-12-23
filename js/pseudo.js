@@ -1,5 +1,10 @@
-/**
- * Created by faheem on 30/11/15.
+/*!
+ * jQuery Pseudo v0.0.1
+ * Author: Faheem Alam
+ * Copyright 2015
+ * Released under the MIT license
+ *
+ * Date: 2015-12-23
  */
 (function($) {
     $.fn.extend({
